@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Gemunu+Libre&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+
+body{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.parrafo{
+    z-index: 1;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: rgb(252, 236, 236);
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+    font-family:'Gemunu Libre', sans-serif; ;
+}
+.parrafo img{
+    width:500px;
+    height: 450px;
+    border-radius: 50px;
+    margin-left: 30%;
+    margin-right: 15px;
+    object-fit: cover;
+}
